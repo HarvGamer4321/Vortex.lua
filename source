@@ -1,0 +1,616 @@
+local id = 2907331
+local plr = game.Players.LocalPlayer
+if plr:IsInGroup(id) then
+print("UI and FE scripts Made By Sampster")
+else
+while true do
+end
+end
+-- 
+-- 
+
+-- Vortex Hub
+
+local funny = Instance.new("ScreenGui")
+local why = Instance.new("ImageLabel")
+local pls = Instance.new("TextButton")
+local boat = Instance.new("TextButton")
+local no = Instance.new("TextLabel")
+local ok = Instance.new("TextLabel")
+local Monke = Instance.new("TextButton")
+local noob = Instance.new("TextButton")
+
+--Properties:
+
+funny.Name = "funny"
+funny.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+why.Name = "why"
+why.Parent = funny
+why.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+why.BackgroundTransparency = 1.000
+why.BorderColor3 = Color3.fromRGB(72, 0, 72)
+why.Position = UDim2.new(0.437570035, 0, 0.161011666, 0)
+why.Size = UDim2.new(0, 354, 0, 539)
+why.Image = "rbxassetid://3570695787"
+why.ImageColor3 = Color3.fromRGB(163, 163, 163)
+why.ScaleType = Enum.ScaleType.Slice
+why.SliceCenter = Rect.new(100, 100, 100, 100)
+why.SliceScale = 0.120
+
+pls.Name = "pls"
+pls.Parent = why
+pls.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+pls.BorderColor3 = Color3.fromRGB(184, 186, 63)
+pls.Position = UDim2.new(0.0170940179, 0, 0.129340157, 0)
+pls.Size = UDim2.new(0, 101, 0, 38)
+pls.Font = Enum.Font.ArialBold
+pls.Text = "PP "
+pls.TextColor3 = Color3.fromRGB(0, 0, 0)
+pls.TextScaled = true
+pls.TextSize = 14.000
+pls.TextWrapped = true
+pls.MouseButton1Down:connect(function()
+	local function PUVF_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local Aligns = 1
+		function Align(Part0,Part1,Position,Angle)
+			local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..Aligns
+			AlignPos.ApplyAtCenterOfMass = true;
+			AlignPos.MaxForce = 67752;
+			AlignPos.MaxVelocity = math.huge/9e110;
+			AlignPos.ReactionForceEnabled = false;
+			AlignPos.Responsiveness = 200;
+			AlignPos.RigidityEnabled = false;
+			local AlignOri = Instance.new('AlignOrientation', Part1); AlignOri.Name = "AliO_"..Aligns
+			AlignOri.MaxAngularVelocity = math.huge/9e110;
+			AlignOri.MaxTorque = 67752;
+			AlignOri.PrimaryAxisOnly = false;
+			AlignOri.ReactionTorqueEnabled = false;
+			AlignOri.Responsiveness = 200;
+			AlignOri.RigidityEnabled = false;
+			local AttachmentA=Instance.new('Attachment',Part1); AttachmentA.Name = "AthP_"..Aligns
+			local AttachmentB=Instance.new('Attachment',Part0); AttachmentB.Name = "AthP_"..Aligns
+			local AttachmentC=Instance.new('Attachment',Part1); AttachmentC.Name = "AthO_"..Aligns
+			local AttachmentD=Instance.new('Attachment',Part0); AttachmentD.Name = "AthO_"..Aligns
+			AttachmentC.Orientation = Angle
+			AttachmentA.Position = Position
+			AlignPos.Attachment1 = AttachmentA;
+			AlignPos.Attachment0 = AttachmentB;
+			AlignOri.Attachment1 = AttachmentC;
+			AlignOri.Attachment0 = AttachmentD;
+			Aligns = Aligns + 1
+			return {AttachmentC,AttachmentA}
+		end
+
+		local Char = game:GetService("Players").LocalPlayer.Character
+
+		local Torso = Char.Torso
+
+		local Hat = Char["Bang w bun"] -- Hat
+		local Handle = Hat.Handle -- Getting the hat's Handle
+
+		Handle.SpecialMesh:Destroy() -- Removing Mesh
+
+		Handle.AccessoryWeld:Destroy() -- Removing the hat weld
+
+		Handle.Parent = workspace
+
+		Align(Handle,Torso,Vector3.new(0,-1,-2),Vector3.new(88888888888888888888888988888888))
+	end
+	coroutine.wrap(PUVF_fake_script)()
+	local function DZXUDG_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local Aligns = 1
+		function Align(Part0,Part1,Position,Angle)
+			local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..Aligns
+			AlignPos.ApplyAtCenterOfMass = true;
+			AlignPos.MaxForce = 67752;
+			AlignPos.MaxVelocity = math.huge/9e110;
+			AlignPos.ReactionForceEnabled = false;
+			AlignPos.Responsiveness = 200;
+			AlignPos.RigidityEnabled = false;
+			local AlignOri = Instance.new('AlignOrientation', Part1); AlignOri.Name = "AliO_"..Aligns
+			AlignOri.MaxAngularVelocity = math.huge/9e110;
+			AlignOri.MaxTorque = 67752;
+			AlignOri.PrimaryAxisOnly = false;
+			AlignOri.ReactionTorqueEnabled = false;
+			AlignOri.Responsiveness = 200;
+			AlignOri.RigidityEnabled = false;
+			local AttachmentA=Instance.new('Attachment',Part1); AttachmentA.Name = "AthP_"..Aligns
+			local AttachmentB=Instance.new('Attachment',Part0); AttachmentB.Name = "AthP_"..Aligns
+			local AttachmentC=Instance.new('Attachment',Part1); AttachmentC.Name = "AthO_"..Aligns
+			local AttachmentD=Instance.new('Attachment',Part0); AttachmentD.Name = "AthO_"..Aligns
+			AttachmentC.Orientation = Angle
+			AttachmentA.Position = Position
+			AlignPos.Attachment1 = AttachmentA;
+			AlignPos.Attachment0 = AttachmentB;
+			AlignOri.Attachment1 = AttachmentC;
+			AlignOri.Attachment0 = AttachmentD;
+			Aligns = Aligns + 1
+			return {AttachmentC,AttachmentA}
+		end
+
+		local Char = game:GetService("Players").LocalPlayer.Character
+
+		local Torso = Char.Torso
+
+		local Hat = Char["the shoom"] -- Hat
+		local Handle = Hat.Handle -- Getting the hat's Handle
+
+		Handle.AccessoryWeld:Destroy() -- Removing the hat weld
+
+		Handle.Parent = workspace
+
+		Align(Handle,Torso,Vector3.new(0,-1,-4),Vector3.new(88888888888888888888888988888888))
+	end
+	coroutine.wrap(DZXUDG_fake_script)()
+	local function SADZEU_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		game["Run Service"].RenderStepped:connect(function()
+			settings().Physics.AllowSleep = false
+			setsimulationradius(math.huge*math.huge,math.huge*math.huge)
+		end)
+	end
+	coroutine.wrap(SADZEU_fake_script)()
+end)
+
+boat.Name = "boat"
+boat.Parent = why
+boat.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+boat.BorderColor3 = Color3.fromRGB(198, 198, 44)
+boat.Position = UDim2.new(0.0170939825, 0, 0.225481197, 0)
+boat.Size = UDim2.new(0, 101, 0, 36)
+boat.Font = Enum.Font.ArialBold
+boat.Text = "Wall "
+boat.TextColor3 = Color3.fromRGB(0, 0, 0)
+boat.TextScaled = true
+boat.TextSize = 14.000
+boat.TextWrapped = true
+boat.MouseButton1Down:connect(function()
+	local function UZCH_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		game["Run Service"].RenderStepped:connect(function()
+			settings().Physics.AllowSleep = false
+			setsimulationradius(math.huge*math.huge,math.huge*math.huge)
+		end)
+	end
+	coroutine.wrap(UZCH_fake_script)()
+	local function GSRPQUA_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local Aligns = 1
+		function Align(Part0,Part1,Position,Angle)
+			local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..Aligns
+			AlignPos.ApplyAtCenterOfMass = true;
+			AlignPos.MaxForce = 67752;
+			AlignPos.MaxVelocity = math.huge/9e110;
+			AlignPos.ReactionForceEnabled = false;
+			AlignPos.Responsiveness = 200;
+			AlignPos.RigidityEnabled = false;
+			local AlignOri = Instance.new('AlignOrientation', Part1); AlignOri.Name = "AliO_"..Aligns
+			AlignOri.MaxAngularVelocity = math.huge/9e110;
+			AlignOri.MaxTorque = 67752;
+			AlignOri.PrimaryAxisOnly = false;
+			AlignOri.ReactionTorqueEnabled = false;
+			AlignOri.Responsiveness = 200;
+			AlignOri.RigidityEnabled = false;
+			local AttachmentA=Instance.new('Attachment',Part1); AttachmentA.Name = "AthP_"..Aligns
+			local AttachmentB=Instance.new('Attachment',Part0); AttachmentB.Name = "AthP_"..Aligns
+			local AttachmentC=Instance.new('Attachment',Part1); AttachmentC.Name = "AthO_"..Aligns
+			local AttachmentD=Instance.new('Attachment',Part0); AttachmentD.Name = "AthO_"..Aligns
+			AttachmentC.Orientation = Angle
+			AttachmentA.Position = Position
+			AlignPos.Attachment1 = AttachmentA;
+			AlignPos.Attachment0 = AttachmentB;
+			AlignOri.Attachment1 = AttachmentC;
+			AlignOri.Attachment0 = AttachmentD;
+			Aligns = Aligns + 1
+			return {AttachmentC,AttachmentA}
+		end
+
+		local Char = game:GetService("Players").LocalPlayer.Character
+
+		local Torso = Char.Torso
+
+		local Hat = Char["OverTheRainbowAccessory"] -- Hat
+		local Handle = Hat.Handle -- Getting the hat's Handle
+
+		Handle.SpecialMesh:Destroy() -- Removing Mesh
+
+		Handle.AccessoryWeld:Destroy() -- Removing the hat weld
+
+		Handle.Parent = workspace
+
+		Align(Handle,Torso,Vector3.new(0,3,-3),Vector3.new())
+	end
+	coroutine.wrap(GSRPQUA_fake_script)()
+	local function JYJNAM_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local Aligns = 1
+		function Align(Part0,Part1,Position,Angle)
+			local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..Aligns
+			AlignPos.ApplyAtCenterOfMass = true;
+			AlignPos.MaxForce = 67752;
+			AlignPos.MaxVelocity = math.huge/9e110;
+			AlignPos.ReactionForceEnabled = false;
+			AlignPos.Responsiveness = 200;
+			AlignPos.RigidityEnabled = false;
+			local AlignOri = Instance.new('AlignOrientation', Part1); AlignOri.Name = "AliO_"..Aligns
+			AlignOri.MaxAngularVelocity = math.huge/9e110;
+			AlignOri.MaxTorque = 67752;
+			AlignOri.PrimaryAxisOnly = false;
+			AlignOri.ReactionTorqueEnabled = false;
+			AlignOri.Responsiveness = 200;
+			AlignOri.RigidityEnabled = false;
+			local AttachmentA=Instance.new('Attachment',Part1); AttachmentA.Name = "AthP_"..Aligns
+			local AttachmentB=Instance.new('Attachment',Part0); AttachmentB.Name = "AthP_"..Aligns
+			local AttachmentC=Instance.new('Attachment',Part1); AttachmentC.Name = "AthO_"..Aligns
+			local AttachmentD=Instance.new('Attachment',Part0); AttachmentD.Name = "AthO_"..Aligns
+			AttachmentC.Orientation = Angle
+			AttachmentA.Position = Position
+			AlignPos.Attachment1 = AttachmentA;
+			AlignPos.Attachment0 = AttachmentB;
+			AlignOri.Attachment1 = AttachmentC;
+			AlignOri.Attachment0 = AttachmentD;
+			Aligns = Aligns + 1
+			return {AttachmentC,AttachmentA}
+		end
+
+		local Char = game:GetService("Players").LocalPlayer.Character
+
+		local Torso = Char.Torso
+
+		local Hat = Char["Pixel Rainbow Wings"] -- Hat
+		local Handle = Hat.Handle -- Getting the hat's Handle
+
+		Handle.SpecialMesh:Destroy() -- Removing Mesh
+
+		Handle.AccessoryWeld:Destroy() -- Removing the hat weld
+
+		Handle.Parent = workspace
+
+		Align(Handle,Torso,Vector3.new(0,0,-3),Vector3.new())
+	end
+	coroutine.wrap(JYJNAM_fake_script)()
+end)
+
+no.Name = "no"
+no.Parent = why
+no.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+no.BorderColor3 = Color3.fromRGB(211, 230, 35)
+no.Position = UDim2.new(0.0423728824, 0, 0.0205223877, 0)
+no.Size = UDim2.new(0, 324, 0, 50)
+no.Font = Enum.Font.SourceSansBold
+no.Text = "Vortex Hub"
+no.TextColor3 = Color3.fromRGB(254, 254, 254)
+no.TextScaled = true
+no.TextSize = 14.000
+no.TextWrapped = true
+
+ok.Name = "ok"
+ok.Parent = why
+ok.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+ok.BorderColor3 = Color3.fromRGB(226, 255, 33)
+ok.Position = UDim2.new(0.0593220331, 0, 0.54916513, 0)
+ok.Size = UDim2.new(0, 312, 0, 232)
+ok.Font = Enum.Font.Oswald
+ok.Text = "FE Script were made by Sampster and the UI design was from Harvking. On the Vortex Hub Discord."
+ok.TextColor3 = Color3.fromRGB(255, 255, 255)
+ok.TextScaled = true
+ok.TextSize = 14.000
+ok.TextWrapped = true
+ok.TextXAlignment = Enum.TextXAlignment.Left
+ok.TextYAlignment = Enum.TextYAlignment.Top
+
+Monke.Name = "Monke"
+Monke.Parent = why
+Monke.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+Monke.BorderColor3 = Color3.fromRGB(240, 233, 23)
+Monke.Position = UDim2.new(0.333478153, 0, 0.128105268, 0)
+Monke.Size = UDim2.new(0, 101, 0, 37)
+Monke.Font = Enum.Font.ArialBold
+Monke.Text = "Mini Heli"
+Monke.TextColor3 = Color3.fromRGB(0, 0, 0)
+Monke.TextScaled = true
+Monke.TextSize = 14.000
+Monke.TextWrapped = true
+Monke.MouseButton1Down:connect(function()
+	local function XLIDVV_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local set = setsimulationradius or set_simulation_radius
+		game.RunService.Stepped:Connect(function()
+			settings().Physics.AllowSleep = false
+			game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
+			game:GetService("RunService").Heartbeat:Wait()
+			game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.huge
+			set(math.huge, math.huge)
+		end)
+
+		local plr = game.Players.LocalPlayer
+		local character = plr.Character
+		local bodypos = Instance.new("BodyPosition", character["HeliHat"].Handle)
+		local hat = character["HeliHat"].Handle
+
+		hat.AccessoryWeld:Destroy()
+
+		while true do
+			wait()
+			bodypos.Position = character.HumanoidRootPart.CFrame:PointToWorldSpace(Vector3.new(0,4,5))
+			hat.Rotation = character.HumanoidRootPart.Rotation
+		end
+	end
+	coroutine.wrap(XLIDVV_fake_script)()
+	local function MVFRKMG_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local set = setsimulationradius or set_simulation_radius
+		game.RunService.Stepped:Connect(function()
+			settings().Physics.AllowSleep = false
+			game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
+			game:GetService("RunService").Heartbeat:Wait()
+			game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.huge
+			set(math.huge, math.huge)
+		end)
+
+		local plr = game.Players.LocalPlayer
+		local character = plr.Character
+		local bodypos = Instance.new("BodyPosition", character["PlushNoob"].Handle)
+		local hat = character["PlushNoob"].Handle
+
+		hat.AccessoryWeld:Destroy()
+
+		while true do
+			wait()
+			bodypos.Position = character.HumanoidRootPart.CFrame:PointToWorldSpace(Vector3.new(0,3,5))
+			hat.Rotation = character.HumanoidRootPart.Rotation
+		end
+	end
+	coroutine.wrap(MVFRKMG_fake_script)()
+	local function CNHYD_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		game["Run Service"].RenderStepped:connect(function()
+			settings().Physics.AllowSleep = false
+			setsimulationradius(math.huge*math.huge,math.huge*math.huge)
+		end)
+	end
+	coroutine.wrap(CNHYD_fake_script)()
+end)
+
+noob.Name = "noob"
+noob.Parent = why
+noob.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+noob.BorderColor3 = Color3.fromRGB(240, 233, 23)
+noob.Position = UDim2.new(0.333478153, 0, 0.222724944, 0)
+noob.Size = UDim2.new(0, 101, 0, 37)
+noob.Font = Enum.Font.ArialBold
+noob.Text = "TV"
+noob.TextColor3 = Color3.fromRGB(0, 0, 0)
+noob.TextScaled = true
+noob.TextSize = 14.000
+noob.TextWrapped = true
+noob.MouseButton1Down:connect(function()
+	local function ZKSHFLB_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		game["Run Service"].RenderStepped:connect(function()
+			settings().Physics.AllowSleep = false
+			setsimulationradius(math.huge*math.huge,math.huge*math.huge)
+		end)
+	end
+	coroutine.wrap(ZKSHFLB_fake_script)()
+	local function PYJIWEE_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local Aligns = 1
+		function Align(Part0,Part1,Position,Angle)
+			local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..Aligns
+			AlignPos.ApplyAtCenterOfMass = true;
+			AlignPos.MaxForce = 67752;
+			AlignPos.MaxVelocity = math.huge/9e110;
+			AlignPos.ReactionForceEnabled = false;
+			AlignPos.Responsiveness = 200;
+			AlignPos.RigidityEnabled = false;
+			local AlignOri = Instance.new('AlignOrientation', Part1); AlignOri.Name = "AliO_"..Aligns
+			AlignOri.MaxAngularVelocity = math.huge/9e110;
+			AlignOri.MaxTorque = 67752;
+			AlignOri.PrimaryAxisOnly = false;
+			AlignOri.ReactionTorqueEnabled = false;
+			AlignOri.Responsiveness = 200;
+			AlignOri.RigidityEnabled = false;
+			local AttachmentA=Instance.new('Attachment',Part1); AttachmentA.Name = "AthP_"..Aligns
+			local AttachmentB=Instance.new('Attachment',Part0); AttachmentB.Name = "AthP_"..Aligns
+			local AttachmentC=Instance.new('Attachment',Part1); AttachmentC.Name = "AthO_"..Aligns
+			local AttachmentD=Instance.new('Attachment',Part0); AttachmentD.Name = "AthO_"..Aligns
+			AttachmentC.Orientation = Angle
+			AttachmentA.Position = Position
+			AlignPos.Attachment1 = AttachmentA;
+			AlignPos.Attachment0 = AttachmentB;
+			AlignOri.Attachment1 = AttachmentC;
+			AlignOri.Attachment0 = AttachmentD;
+			Aligns = Aligns + 1
+			return {AttachmentC,AttachmentA}
+		end
+
+		local Char = game:GetService("Players").LocalPlayer.Character
+
+		local Torso = Char.Torso
+
+		local Hat = Char["Big Goose Fur Hood Black"]
+		local Handle = Hat.Handle -- Getting the hat's Handle
+
+		Handle.SpecialMesh:Destroy() -- Removing Mesh
+
+		Handle.AccessoryWeld:Destroy() -- Removing the hat weld
+
+		Handle.Parent = workspace
+
+		Align(Handle,Torso,Vector3.new(0,0,-3),Vector3.new())
+	end
+	coroutine.wrap(PYJIWEE_fake_script)()
+	local function IWDDCE_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+
+		local Aligns = 1
+		function Align(Part0,Part1,Position,Angle)
+			local AlignPos = Instance.new('AlignPosition', Part1); AlignPos.Name = "AliP_"..Aligns
+			AlignPos.ApplyAtCenterOfMass = true;
+			AlignPos.MaxForce = 67752;
+			AlignPos.MaxVelocity = math.huge/9e110;
+			AlignPos.ReactionForceEnabled = false;
+			AlignPos.Responsiveness = 200;
+			AlignPos.RigidityEnabled = false;
+			local AlignOri = Instance.new('AlignOrientation', Part1); AlignOri.Name = "AliO_"..Aligns
+			AlignOri.MaxAngularVelocity = math.huge/9e110;
+			AlignOri.MaxTorque = 67752;
+			AlignOri.PrimaryAxisOnly = false;
+			AlignOri.ReactionTorqueEnabled = false;
+			AlignOri.Responsiveness = 200;
+			AlignOri.RigidityEnabled = false;
+			local AttachmentA=Instance.new('Attachment',Part1); AttachmentA.Name = "AthP_"..Aligns
+			local AttachmentB=Instance.new('Attachment',Part0); AttachmentB.Name = "AthP_"..Aligns
+			local AttachmentC=Instance.new('Attachment',Part1); AttachmentC.Name = "AthO_"..Aligns
+			local AttachmentD=Instance.new('Attachment',Part0); AttachmentD.Name = "AthO_"..Aligns
+			AttachmentC.Orientation = Angle
+			AttachmentA.Position = Position
+			AlignPos.Attachment1 = AttachmentA;
+			AlignPos.Attachment0 = AttachmentB;
+			AlignOri.Attachment1 = AttachmentC;
+			AlignOri.Attachment0 = AttachmentD;
+			Aligns = Aligns + 1
+			return {AttachmentC,AttachmentA}
+		end
+
+		local Char = game:GetService("Players").LocalPlayer.Character
+
+		local Torso = Char.Torso
+
+		local Hat = Char["blu tv'"] -- Hat
+
+		local Handle = Hat.Handle -- Getting the hat's Handle
+
+		Handle.AccessoryWeld:Destroy() -- Removing the hat weld
+
+		Handle.Parent = workspace
+
+		Align(Handle,Torso,Vector3.new(0,3,-3),Vector3.new())
+	end
+	coroutine.wrap(IWDDCE_fake_script)()
+end)
+
+-- Scripts:
+
+local function PYNPCM_fake_script() -- why.Dragify 
+	local script = Instance.new('LocalScript', why)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.25
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+	
+	--Dont use with other GUIs etc without my P3rm1ss10N! -W0lfy
+end
+coroutine.wrap(PYNPCM_fake_script)()
+local function QHAE_fake_script() -- why.PositioningScript 
+	local script = Instance.new('LocalScript', why)
+
+	--//Scripted by Sochi\\
+	-- script.Parent.Position = UDim2.new(0, 100, 0, -1000)
+	script.Parent:TweenPosition(UDim2.new(0.5, 0, 0.5, 0), "Out", "Quad", 1)
+	script.Parent.Draggable = true
+end
+coroutine.wrap(QHAE_fake_script)()
+local function VAABCW_fake_script() -- why.Smooth drag 
+	local script = Instance.new('LocalScript', why)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+		dragToggle = nil
+		local dragSpeed = 0.50
+		dragInput = nil
+		dragStart = nil
+		local dragPos = nil
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(VAABCW_fake_script)()
+local function WTKKVE_fake_script() -- funny.LocalScript 
+	local script = Instance.new('LocalScript', funny)
+
+	--By DriedUpCat
+	
+	frame = script.Parent.why --Name of your frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+	
+end
+coroutine.wrap(WTKKVE_fake_script)()
